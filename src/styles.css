@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-image{
+    background-image: url("/assets/images/image01.jpg");
+}
+
+.food1{
+    background-image: url("/assets/images/food1.jpg");
+}
+
+.food2{
+    background-image: url("/assets/images/food2.jpg");
+}
+
+.food3{
+    background-image: url("/assets/images/food3.jpg");
+}
+
+.mat-dialog-container {
+    padding: 2px !important;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    padding-right: 0px !important;
+}

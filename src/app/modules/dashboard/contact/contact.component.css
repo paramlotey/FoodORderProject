@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.about{
+    background: url(/assets/images/dinnertable.jpg) no-repeat left;
+    background-size: 85%;
+    background-color: #f3eded;
+    background-position: 35px;
+    overflow: hidden;
+    padding: 100px;
+}
+.inner-section{
+    width: 40%;
+    float: right;
+    background-color:  #dfd9d9;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(184, 14, 14, 0.3);
+}
+.inner-section h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #0d0f11;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.button{
+    text-align: center;
+    letter-spacing: 1.5px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 200px;
+    background-color: #eaf2f7;
+    color: rgb(227, 238, 217);
+    cursor: pointer;
+}
+.button:hover{
+    transition: 1s;
+    background-color: #d36161;
+    color: #82919e;
+}
+.social{
+    width:100%;
+    
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.social i{
+    color:#fff;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #f28f92;
+    margin:10px;
+}
+.social i:hover{
+    color: #fff;
+    background-color: #787e46;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    .button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}

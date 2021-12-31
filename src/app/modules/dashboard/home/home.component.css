@@ -1,0 +1,14 @@
+.logo1{
+    background-image: url("/assets/images/logo1.jpg");
+}
+
+.logo2{
+    background-image: url("/assets/images/logo2.jpg");
+}
+.logo3{
+    background-image: url("/assets/images/logo3.jpg");
+}
+
+.icon-white{
+    color: white;
+}

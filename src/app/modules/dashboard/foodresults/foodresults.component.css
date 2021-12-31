@@ -1,0 +1,5 @@
+.bg-image{
+    background-image: url("/assets/images/profile-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
