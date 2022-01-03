@@ -8,7 +8,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-9">
-                <button type="margin:5px">ADD NEW ITEM</button>&nbsp;&nbsp;
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#submitItem">
+                    Launch static backdrop modal
+                  </button>
+                  
+
                 <button type="margin:20px">REMOVE AN ITEM</button>
             </div>
         </div>
@@ -270,5 +274,22 @@
             </div>
         </div>
     </div>
+    
 </section>
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  
 <app-footer></app-footer>
+<div class="modal fade" id="submitItem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h5 class="modal-title" id="loginModalLabel">Log In</h5>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
